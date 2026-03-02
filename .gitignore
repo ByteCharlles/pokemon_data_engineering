@@ -1,0 +1,34 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Variáveis de ambiente (Segurança!)
+.env
+
+# Dados (Não versionar dados brutos ou bancos locais pesados)
+data/bronze/*.json
+data/bronze/*.csv
+data/silver/*.parquet
+data/gold/*.parquet
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Streamlit e IDEs
+.streamlit/config.toml
+.vscode/
+.idea/
+.DS_Store
+
+# Dados (Esta comentado para permitir o versionamento de arquivos de exemplo ou pequenos datasets, mas pode ser descomentado para ignorar completamente os dados)
+# data/bronze/
+# data/silver/
+# data/gold/
